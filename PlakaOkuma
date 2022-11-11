@@ -1,3 +1,8 @@
+# REQUIREMENTS
+# pip install opencv-python
+# pip install numpy
+# pip install pytesseract
+# pip install imutils
 import os
 import cv2
 import numpy as np
