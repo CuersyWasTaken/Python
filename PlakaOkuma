@@ -3,6 +3,8 @@
 # pip install numpy
 # pip install pytesseract
 # pip install imutils
+
+# SCRIPT
 import os
 import cv2
 import numpy as np
