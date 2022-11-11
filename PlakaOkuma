@@ -45,10 +45,5 @@ kirp=gri[ustx:altx,usty:alty+1]
 text=pytesseract.image_to_string(kirp,lang="eng")
 print(text)
 
-cv2.imshow("Kirp",kirp)
-
-cv2.imshow("yazi",yazi)
-cv2.imshow("2",yenimaske)
-cv2.imshow("1", kose)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
